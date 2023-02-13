@@ -24,36 +24,6 @@ body {
 }
 
 
-/**
-  |============================
-  | main
-  |============================
-*/
-.title {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-} 
-
-.subtitle {
-    margin-bottom: 8px;
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.desc {
-    color: var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 
 
 /* reset start */
@@ -117,6 +87,39 @@ section {
 
 /**
   |============================
+  | main
+  |============================
+*/
+.title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+} 
+
+.subtitle {
+    margin-bottom: 8px;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.desc {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+/**
+  |============================
   | header
   |============================
 */
@@ -171,7 +174,7 @@ section {
     position: relative;
     padding-top: 24px;
     padding-bottom: 31px;
-    background-color:inherit;
+    color:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
